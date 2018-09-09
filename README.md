@@ -1,3 +1,3 @@
-#YouTube API Search App
+# YouTube API Search App
 
 Practicing AJAX using the YouTube API.
