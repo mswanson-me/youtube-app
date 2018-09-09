@@ -1,0 +1,57 @@
+body * {
+    box-sizing: border-box;
+}
+
+html {
+    background-color: black;
+    background-size: cover;
+}
+
+section {
+    margin-bottom: 5px;
+}
+
+body {
+    max-width: 1200px;
+    width: 60%;
+    height: 100%;
+    margin: auto;
+    padding: 1%;
+}
+ 
+header {
+    padding: 2% 5%;
+    background: rgb(119, 44, 119);
+    color: white;
+    box-shadow: 12px 12px 0 2px white;
+}
+
+.card:hover, .card:focus {
+    box-shadow: 3px 3px white;
+    transform: translate(-3px, -3px);
+}
+
+.card {
+    border: 1px dotted white;
+    width: 20%;
+    height: 300px;
+    padding: 2px;
+    margin-top: 15px;
+    background: transparent;
+    color: white;
+    text-decoration: none;
+    float: left;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+iframe {
+    margin: auto;
+}
+
+.js-feedback {
+    color: white;
+}

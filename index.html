@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Simple YouTube Search</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="grid.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+</head>
+<body>
+    <header role="banner">
+        <h1>Youtube API Query App</h1>
+            
+        <form action="#" class="js-youtube-form">
+            <label for="query">Search YouTube:</label>
+            <input type="text" class="js-query" id="query" autofocus>
+            <button type="submit">Go!</button>
+        </form>
+    </header>
+    <main role="main">
+        <div class="js-feedback" aria-live="assertive"></div>
+        <div class="js-results" aria-live="assertive"></div>
+    </main>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script src="main.js"></script>
+</body>
+</html>
